@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.welcome-banner-img{
+    background-image: url(images/banner/banner.png);
+    height: 683px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome{
+    background-color: white;
+    width: 359px;
+}
+.welcome-area{
+    background-color: white;
+    width: 495px;
+}
+
+.realationship-banner-img{
+    background-image: url(images/Realationship/realationship.png);
+}
+.services-banner-img{
+    background-image: url(images/services/services-img.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services-banner-area{
+    background-color: white;
+    width: 1134px;
+}
+.about-us-banner-img{
+    background-image: url(images/about-us/about-us-img.png);
+    height: 590px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us-banner-area{
+    background-color: white;
+    width: 581px;
+}
+.social-media-banner-img{
+    background-image: url(images/social-media/humanness-image.png);
+    height: 781px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social-media-banner-area{
+    background-color: white;
+    width: 630px;
+
+}
+/* box-area-start */
+.banner-card-1{
+    background-image: url(images/social-media/instagram-image.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 375px;
+
+}
+.color{
+    color: white;
+    text-align: center;
+    padding-top: 185px;
+}
+.banner-card-2{
+        background-image: url(images/social-media/youtube-image.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-3{
+        background-image: url(images/social-media/facebook-image.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-4{
+        background-image: url(images/social-media/twitter-image.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    /* box-area-end */
+    
+    /* footer-area-start */
+    .circle{
+        border: 1px solid white;
+        height: 80px;
+        width: 80px;
+        border-radius:50% ;
+        
+    }
+    .bttn{
+       margin-top: -60px;
+    }
+    .position{
+        padding-top: 50px;
+      
+    }
+    .position-1{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    /* footer-area-start */
+    @media screen and (max-width:912px) {
+        .background-image {
+            height:400px;
+        }
+        .background-image-two{
+            height:400px;
+        }
+        .background-image-three{
+            height: 400px;
+        }
+        .background-image-four{
+            height: 400px;
+        }
+    }
+    @media screen and (max-width:640px) {
+        .background-image {
+            height:200px;
+        }
+        .background-image-two{
+            height:200px;
+        }
+        .background-image-three{
+            height: 200px;
+        }
+        .background-image-four{
+            height: 200px;
+        }
+    }
